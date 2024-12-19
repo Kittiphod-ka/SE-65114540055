@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.menu-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  width: 150px;
+}
+
+.menu-card img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-card h3 {
+  margin: 0;
+  padding: 0.5rem;
+}
